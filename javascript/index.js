@@ -1,6 +1,6 @@
 console.log("hello world");
 
-const add = async (num1, num2) => {
+const add = (num1, num2) => {
   try {
     const result = num1 + num2;
     return result;
@@ -9,4 +9,4 @@ const add = async (num1, num2) => {
   }
 };
 
-add(5, 6); 
+console.log(add(5, 9));
